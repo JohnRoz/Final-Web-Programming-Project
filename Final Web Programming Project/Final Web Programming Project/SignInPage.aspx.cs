@@ -34,10 +34,16 @@ namespace Final_Web_Programming_Project
                         if (reader.Read())
                             if (reader.GetString(2) == password)
                                 Response.Redirect("Index.aspx");
+
+                            //Password is incorrect
                             else
                                 wrongDetailsMessege = "Username or password are incorrect.";
+                        //Username doesn't exist
                         else
-                            throw new Exception("WTF");
+                        {
+                            wrongDetailsMessege = "Username or password are incorrect.";
+                            //throw new Exception("WTF");
+                        }
                     }
                 }
                 catch(SqlException ex)
