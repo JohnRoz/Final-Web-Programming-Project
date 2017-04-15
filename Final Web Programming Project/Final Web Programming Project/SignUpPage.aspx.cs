@@ -17,7 +17,7 @@ namespace Final_Web_Programming_Project
         {
             SqlConnection conn1 = new SqlConnection(connStr);
             conn1.Open();
-            CreateUsersTable(conn1);
+            CreateAchievementsTable(conn1);
             conn1.Close();
 
             if (Request.HttpMethod == "POST")
@@ -70,6 +70,18 @@ Level int NOT NULL,
 XP int NOT NULL
 );
 ";
+            command.ExecuteNonQuery();
+        }
+
+        private void CreateAchievementsTable(SqlConnection conn)
+        {
+            SqlCommand command = conn.CreateCommand();
+            command.CommandText = @"
+CREATE TABLE Achievements(
+Id int NOT NULL IDENTITY(1,1) PRIMARY KEY,
+Content varchar(255) NOT NULL,
+UserId int NOT NULL FOREIGN KEY REFERENCES Users(Id)
+);";
             command.ExecuteNonQuery();
         }
     }
