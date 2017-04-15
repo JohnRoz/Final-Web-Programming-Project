@@ -7,16 +7,15 @@
     var isBirthDateReal = is_birth_date_real();
     var hasAgreedToTerms = has_agreed_to_terms();
 
-    if (
-        isValidUsername
+    if (isValidUsername
         && isValidEmail
         && isValidPassword
         && isPasswordConfirmed
         && isFullNameValid
         && isBirthDateReal
-        && hasAgreedToTerms
-    )
+        && hasAgreedToTerms)
         return true;
+
     return false;
 }
 

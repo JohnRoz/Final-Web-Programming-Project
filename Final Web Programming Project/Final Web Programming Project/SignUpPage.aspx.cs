@@ -15,6 +15,10 @@ namespace Final_Web_Programming_Project
 
         protected void Page_Load(object sender, EventArgs e)
         {
+            SqlConnection conn1 = new SqlConnection(connStr);
+            conn1.Open();
+            CreateUsersTable(conn1);
+            conn1.Close();
 
             if (Request.HttpMethod == "POST")
             {
@@ -27,7 +31,7 @@ namespace Final_Web_Programming_Project
                 SqlConnection conn = new SqlConnection(connStr);
                 conn.Open();
                 SqlCommand command = conn.CreateCommand();
-                command.CommandText = "INSERT INTO Users VALUES(@0,@1,@2,@3);";
+                command.CommandText = "INSERT INTO Users VALUES(@0,@1,@2,@3,1,0);";
 
                 command.Parameters.AddWithValue("@0", username);
                 command.Parameters.AddWithValue("@1", password);
@@ -62,6 +66,8 @@ Username varchar(50) NOT NULL UNIQUE,
 Password varchar(50) NOT NULL,
 Email varchar(50) NOT NULL UNIQUE,
 Full_Name varchar(50) NOT NULL,
+Level int NOT NULL,
+XP int NOT NULL
 );
 ";
             command.ExecuteNonQuery();

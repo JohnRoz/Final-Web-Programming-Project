@@ -66,7 +66,208 @@
     <Content Include="App_Data\AbsoluteDatabase_log.ldf">
       <DependentUpon>AbsoluteDatabase.mdf</DependentUpon>
     </Content>
+    <Content Include="AudioResourcesFunctions.js" />
     <Content Include="Index.aspx" />
+    <None Include="Resources\aug_chord_1.wav" />
+    <None Include="Resources\aug_chord_2.wav" />
+    <None Include="Resources\aug_chord_3.wav" />
+    <None Include="Resources\aug_chord_4.wav" />
+    <None Include="Resources\aug_chord_5.wav" />
+    <None Include="Resources\aug_chord_6.wav" />
+    <None Include="Resources\aug_chord_7.wav" />
+    <None Include="Resources\aug_chord_8.wav" />
+    <None Include="Resources\aug_chord_9.wav" />
+    <None Include="Resources\aug_chord_10.wav" />
+    <None Include="Resources\aug_chord_11.wav" />
+    <None Include="Resources\aug_chord_12.wav" />
+    <None Include="Resources\aug_chord_13.wav" />
+    <None Include="Resources\aug_chord_14.wav" />
+    <None Include="Resources\aug_chord_15.wav" />
+    <None Include="Resources\aug_chord_16.wav" />
+    <None Include="Resources\aug_chord_17.wav" />
+    <None Include="Resources\aug_chord_18.wav" />
+    <None Include="Resources\aug_chord_19.wav" />
+    <None Include="Resources\aug_chord_20.wav" />
+    <None Include="Resources\aug_chord_21.wav" />
+    <None Include="Resources\aug_chord_22.wav" />
+    <None Include="Resources\aug_chord_23.wav" />
+    <None Include="Resources\aug_chord_24.wav" />
+    <None Include="Resources\aug_chord_25.wav" />
+    <None Include="Resources\aug_chord_26.wav" />
+    <None Include="Resources\aug_chord_27.wav" />
+    <None Include="Resources\aug_chord_28.wav" />
+    <None Include="Resources\aug_chord_29.wav" />
+    <None Include="Resources\aug_chord_30.wav" />
+    <None Include="Resources\aug_chord_31.wav" />
+    <None Include="Resources\aug_chord_32.wav" />
+    <None Include="Resources\aug_chord_33.wav" />
+    <None Include="Resources\aug_chord_34.wav" />
+    <None Include="Resources\aug_chord_35.wav" />
+    <None Include="Resources\aug_chord_36.wav" />
+    <None Include="Resources\aug_chord_37.wav" />
+    <None Include="Resources\aug_chord_38.wav" />
+    <None Include="Resources\aug_chord_39.wav" />
+    <None Include="Resources\aug_chord_40.wav" />
+    <None Include="Resources\aug_chord_41.wav" />
+    <None Include="Resources\dim_chord_1.wav" />
+    <None Include="Resources\dim_chord_2.wav" />
+    <None Include="Resources\dim_chord_3.wav" />
+    <None Include="Resources\dim_chord_4.wav" />
+    <None Include="Resources\dim_chord_5.wav" />
+    <None Include="Resources\dim_chord_6.wav" />
+    <None Include="Resources\dim_chord_7.wav" />
+    <None Include="Resources\dim_chord_8.wav" />
+    <None Include="Resources\dim_chord_9.wav" />
+    <None Include="Resources\dim_chord_10.wav" />
+    <None Include="Resources\dim_chord_11.wav" />
+    <None Include="Resources\dim_chord_12.wav" />
+    <None Include="Resources\dim_chord_13.wav" />
+    <None Include="Resources\dim_chord_14.wav" />
+    <None Include="Resources\dim_chord_15.wav" />
+    <None Include="Resources\dim_chord_16.wav" />
+    <None Include="Resources\dim_chord_17.wav" />
+    <None Include="Resources\dim_chord_18.wav" />
+    <None Include="Resources\dim_chord_19.wav" />
+    <None Include="Resources\dim_chord_20.wav" />
+    <None Include="Resources\dim_chord_21.wav" />
+    <None Include="Resources\dim_chord_22.wav" />
+    <None Include="Resources\dim_chord_23.wav" />
+    <None Include="Resources\dim_chord_24.wav" />
+    <None Include="Resources\dim_chord_25.wav" />
+    <None Include="Resources\dim_chord_26.wav" />
+    <None Include="Resources\dim_chord_27.wav" />
+    <None Include="Resources\dim_chord_28.wav" />
+    <None Include="Resources\dim_chord_29.wav" />
+    <None Include="Resources\dim_chord_30.wav" />
+    <None Include="Resources\dim_chord_31.wav" />
+    <None Include="Resources\dim_chord_32.wav" />
+    <None Include="Resources\dim_chord_33.wav" />
+    <None Include="Resources\dim_chord_34.wav" />
+    <None Include="Resources\dim_chord_35.wav" />
+    <None Include="Resources\dim_chord_36.wav" />
+    <None Include="Resources\dim_chord_37.wav" />
+    <None Include="Resources\dim_chord_38.wav" />
+    <None Include="Resources\dim_chord_39.wav" />
+    <None Include="Resources\dim_chord_40.wav" />
+    <None Include="Resources\dim_chord_41.wav" />
+    <None Include="Resources\dim_chord_42.wav" />
+    <None Include="Resources\dim_chord_43.wav" />
+    <None Include="Resources\maj_chord_1.wav" />
+    <None Include="Resources\maj_chord_2.wav" />
+    <None Include="Resources\maj_chord_3.wav" />
+    <None Include="Resources\maj_chord_4.wav" />
+    <None Include="Resources\maj_chord_5.wav" />
+    <None Include="Resources\maj_chord_6.wav" />
+    <None Include="Resources\maj_chord_7.wav" />
+    <None Include="Resources\maj_chord_8.wav" />
+    <None Include="Resources\maj_chord_9.wav" />
+    <None Include="Resources\maj_chord_10.wav" />
+    <None Include="Resources\maj_chord_11.wav" />
+    <None Include="Resources\maj_chord_12.wav" />
+    <None Include="Resources\maj_chord_13.wav" />
+    <None Include="Resources\maj_chord_14.wav" />
+    <None Include="Resources\maj_chord_15.wav" />
+    <None Include="Resources\maj_chord_16.wav" />
+    <None Include="Resources\maj_chord_17.wav" />
+    <None Include="Resources\maj_chord_18.wav" />
+    <None Include="Resources\maj_chord_19.wav" />
+    <None Include="Resources\maj_chord_20.wav" />
+    <None Include="Resources\maj_chord_21.wav" />
+    <None Include="Resources\maj_chord_22.wav" />
+    <None Include="Resources\maj_chord_23.wav" />
+    <None Include="Resources\maj_chord_24.wav" />
+    <None Include="Resources\min_chord_1.wav" />
+    <None Include="Resources\min_chord_2.wav" />
+    <None Include="Resources\min_chord_3.wav" />
+    <None Include="Resources\min_chord_4.wav" />
+    <None Include="Resources\min_chord_5.wav" />
+    <None Include="Resources\min_chord_6.wav" />
+    <None Include="Resources\min_chord_7.wav" />
+    <None Include="Resources\min_chord_8.wav" />
+    <None Include="Resources\min_chord_9.wav" />
+    <None Include="Resources\min_chord_10.wav" />
+    <None Include="Resources\min_chord_11.wav" />
+    <None Include="Resources\min_chord_12.wav" />
+    <None Include="Resources\min_chord_13.wav" />
+    <None Include="Resources\min_chord_14.wav" />
+    <None Include="Resources\min_chord_15.wav" />
+    <None Include="Resources\min_chord_16.wav" />
+    <None Include="Resources\min_chord_17.wav" />
+    <None Include="Resources\min_chord_18.wav" />
+    <None Include="Resources\min_chord_19.wav" />
+    <None Include="Resources\min_chord_20.wav" />
+    <None Include="Resources\min_chord_21.wav" />
+    <None Include="Resources\min_chord_22.wav" />
+    <None Include="Resources\min_chord_23.wav" />
+    <None Include="Resources\min_chord_24.wav" />
+    <None Include="Resources\a_note_1.wav" />
+    <None Include="Resources\a_note_2.wav" />
+    <None Include="Resources\a_note_3.wav" />
+    <None Include="Resources\a_note_4.wav" />
+    <None Include="Resources\a_note_5.wav" />
+    <None Include="Resources\a_note_6.wav" />
+    <None Include="Resources\a_note_7.wav" />
+    <None Include="Resources\b_bemolle_note_1.wav" />
+    <None Include="Resources\b_bemolle_note_2.wav" />
+    <None Include="Resources\b_bemolle_note_3.wav" />
+    <None Include="Resources\b_bemolle_note_4.wav" />
+    <None Include="Resources\b_bemolle_note_5.wav" />
+    <None Include="Resources\b_bemolle_note_6.wav" />
+    <None Include="Resources\b_bemolle_note_7.wav" />
+    <None Include="Resources\b_note_1.wav" />
+    <None Include="Resources\b_note_2.wav" />
+    <None Include="Resources\b_note_3.wav" />
+    <None Include="Resources\b_note_4.wav" />
+    <None Include="Resources\b_note_5.wav" />
+    <None Include="Resources\b_note_6.wav" />
+    <None Include="Resources\b_note_7.wav" />
+    <None Include="Resources\c_diese_note_1.wav" />
+    <None Include="Resources\c_diese_note_2.wav" />
+    <None Include="Resources\c_diese_note_3.wav" />
+    <None Include="Resources\c_diese_note_4.wav" />
+    <None Include="Resources\c_diese_note_5.wav" />
+    <None Include="Resources\c_note_1.wav" />
+    <None Include="Resources\c_note_2.wav" />
+    <None Include="Resources\c_note_3.wav" />
+    <None Include="Resources\c_note_4.wav" />
+    <None Include="Resources\c_note_5.wav" />
+    <None Include="Resources\c_note_6.wav" />
+    <None Include="Resources\c_note_7.wav" />
+    <None Include="Resources\d_note_1.wav" />
+    <None Include="Resources\d_note_2.wav" />
+    <None Include="Resources\d_note_3.wav" />
+    <None Include="Resources\d_note_4.wav" />
+    <None Include="Resources\d_note_5.wav" />
+    <None Include="Resources\e_bemolle_note_1.wav" />
+    <None Include="Resources\e_bemolle_note_2.wav" />
+    <None Include="Resources\e_bemolle_note_3.wav" />
+    <None Include="Resources\e_bemolle_note_4.wav" />
+    <None Include="Resources\e_bemolle_note_5.wav" />
+    <None Include="Resources\e_note_1.wav" />
+    <None Include="Resources\e_note_2.wav" />
+    <None Include="Resources\e_note_3.wav" />
+    <None Include="Resources\e_note_4.wav" />
+    <None Include="Resources\e_note_5.wav" />
+    <None Include="Resources\f_diese_note_1.wav" />
+    <None Include="Resources\f_diese_note_2.wav" />
+    <None Include="Resources\f_diese_note_3.wav" />
+    <None Include="Resources\f_diese_note_4.wav" />
+    <None Include="Resources\f_diese_note_5.wav" />
+    <None Include="Resources\f_note_1.wav" />
+    <None Include="Resources\f_note_2.wav" />
+    <None Include="Resources\f_note_3.wav" />
+    <None Include="Resources\f_note_4.wav" />
+    <None Include="Resources\f_note_5.wav" />
+    <None Include="Resources\g_diese_note_1.wav" />
+    <None Include="Resources\g_diese_note_2.wav" />
+    <None Include="Resources\g_diese_note_3.wav" />
+    <None Include="Resources\g_diese_note_4.wav" />
+    <None Include="Resources\g_diese_note_5.wav" />
+    <None Include="Resources\g_note_1.wav" />
+    <None Include="Resources\g_note_2.wav" />
+    <None Include="Resources\g_note_3.wav" />
+    <None Include="Resources\g_note_4.wav" />
+    <None Include="Resources\g_note_5.wav" />
     <Content Include="SignInPage.aspx" />
     <Content Include="SignUpPage.aspx" />
     <Content Include="ValidateSignUpDetails.js" />
@@ -79,6 +280,11 @@
     </Content>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="App_GlobalResources\Res.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Res.resx</DependentUpon>
+    </Compile>
     <Compile Include="Index.aspx.cs">
       <DependentUpon>Index.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -102,7 +308,12 @@
       <DependentUpon>SignUpPage.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Content Include="App_GlobalResources\Res.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>Res.Designer.cs</LastGenOutput>
+    </Content>
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
