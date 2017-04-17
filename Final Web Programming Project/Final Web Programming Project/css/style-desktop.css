@@ -210,13 +210,19 @@
 		font-weight: normal;
 	}
 
-	#AcountDetails, #UserProgress
+	#AcountDetails, #UserProgress, .skel-cell-important > #ChordsTrainingTable
 	{
 		border-collapse: separate; 
-		border-spacing: 50px 50px;
+		border-spacing: 30px 30px;
 	}
 
 	.AcountDetailsField
 	{
 		font-size:2ch;
+	}
+
+	#MajorBtn, #MinorBtn, #DiminishedBtn, #AugmentedBtn
+	{
+		width: 4cm;
+		height: 4cm;
 	}

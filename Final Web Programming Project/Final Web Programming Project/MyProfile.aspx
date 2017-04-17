@@ -31,7 +31,6 @@
 
 <body>
     <div id="wrapper">
-
         <!-- Header -->
         <div id="header">
             <div class="container">

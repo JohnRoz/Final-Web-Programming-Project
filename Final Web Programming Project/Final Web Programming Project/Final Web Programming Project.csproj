@@ -67,6 +67,7 @@
       <DependentUpon>AbsoluteDatabase.mdf</DependentUpon>
     </Content>
     <Content Include="AudioResourcesFunctions.js" />
+    <Content Include="ChordsTraining.aspx" />
     <Content Include="Index.aspx" />
     <None Include="Resources\aug_chord_1.wav" />
     <None Include="Resources\aug_chord_2.wav" />
@@ -285,6 +286,13 @@
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>Res.resx</DependentUpon>
+    </Compile>
+    <Compile Include="ChordsTraining.aspx.cs">
+      <DependentUpon>ChordsTraining.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ChordsTraining.aspx.designer.cs">
+      <DependentUpon>ChordsTraining.aspx</DependentUpon>
     </Compile>
     <Compile Include="Index.aspx.cs">
       <DependentUpon>Index.aspx</DependentUpon>
