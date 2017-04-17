@@ -1,0 +1,206 @@
+/*
+	Synchronous by TEMPLATED
+	templated.co @templatedco
+	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+*/
+
+/*********************************************************************************/
+/* Header                                                                        */
+/*********************************************************************************/
+
+	#header
+	{
+		padding: 2em 0em;
+	}
+	
+		.homepage #header
+		{
+			padding: 2em 0em;
+		}
+
+		#header .container
+		{
+		}
+
+/*********************************************************************************/
+/* WELCOME USER MESSAGE */
+/*********************************************************************************/
+	.container > .row > #Welcome 
+	{
+		color: #FFFFFF;
+		text-align: left !important;
+		font-size: 1.1em;
+	}
+
+
+/*********************************************************************************/
+/* Sign In & Sign Up */
+/*********************************************************************************/
+
+	.container > .row > .SiteHeaderLink span
+	{
+		color: #C4C7C7;
+	}
+
+	.container > .row > .SiteHeaderLink a , #HeaderLinks
+	{
+		color: #FFFFFF;
+		text-align: right !important;
+		font-size: 1.1em;
+	}
+
+		.container > .row > .SiteHeaderLink a 
+		{
+			text-decoration: none;
+		}
+
+			.container > .row > .SiteHeaderLink a:hover
+			{
+					text-decoration: underline !important;
+			}
+
+		.TextBold {
+    		font-weight: 600 !important;
+		}
+
+
+/*********************************************************************************/
+/* Logo                                                                          */
+/*********************************************************************************/
+
+	#logo
+	{
+		margin-bottom: 3em;
+	}
+	
+
+		#logo span
+		{
+			display: block;
+			padding-top: 1em;
+			letter-spacing: 1px;
+			font-size: 1.2em;
+			color: #C4C7C7;
+		}			
+			
+
+/*********************************************************************************/
+/* Nav                                                                           */
+/*********************************************************************************/
+
+	#nav
+	{
+	}
+
+		#nav > ul > li
+		{
+			display: inline-block;
+		}
+		
+			#nav > ul > li:last-child
+			{
+				padding-right: 0;
+			}
+
+			#nav > ul > li > a,
+			#nav > ul > li > span
+			{
+				display: block;
+				padding: 1em 1.5em;
+				letter-spacing: 1px;
+				text-decoration: none;
+				text-transform: uppercase;
+				font-weight: 200;
+				font-size: 1em;
+				outline: 0;
+				color: #323338;
+			}
+
+
+			#nav > ul > li > a:hover
+			{
+				color: #FFF;
+			}
+
+			#nav li.active a
+			{
+				background: #323338;
+				border-radius: 4px;
+				color: #FFF;
+			}
+
+			#nav > ul > li > ul
+			{
+				display: none;
+			}
+
+
+/*********************************************************************************/
+/* Banner                                                                        */
+/*********************************************************************************/
+
+	#banner {
+		overflow: hidden;
+		margin-top: 10px;
+		margin-bottom: 30px;
+		box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, .3);
+	}
+
+	#banner .banner-border {
+		padding: 20px;
+		background: #FFFFFF;
+	}
+
+	#banner a img {
+		display: block;
+		width: 100%;
+	}
+
+/*********************************************************************************/
+/* Page Wrapper                                                                  */
+/*********************************************************************************/
+
+	.homepage #page {
+		overflow: hidden;
+		background-color: #e6eeee;
+	}
+
+/*********************************************************************************/
+/* Content                                                                       */
+/*********************************************************************************/
+
+	#content {
+		padding: 0px 0px 0px 0px;
+	}
+
+	.twocolumn2 #content {
+	}
+
+	.onecolumn #content {
+	}
+
+	#content h2 {
+	}
+
+	.Italic
+	{
+		font-style: italic;
+	}
+
+		.Italic .AbsoluteInfo
+		{
+			font-family: "Times New Roman", Times, serif;
+		}
+
+	#content > p
+	{
+		color: #8A8A8A;
+		font-weight: normal;
+	}
+
+	#content > #MotivationTable
+	{
+		border: none;
+		color: #8A8A8A;
+		font-weight: normal;
+	}

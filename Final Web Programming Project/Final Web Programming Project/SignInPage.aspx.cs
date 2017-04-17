@@ -33,7 +33,11 @@ namespace Final_Web_Programming_Project
                     {
                         if (reader.Read())
                             if (reader.GetString(2) == password)
+                            {
+                                Session["UserId"] = reader.GetInt32(0);
+                                Session["UserFullName"] = reader.GetString(4);
                                 Response.Redirect("Index.aspx");
+                            }
 
                             //Password is incorrect
                             else

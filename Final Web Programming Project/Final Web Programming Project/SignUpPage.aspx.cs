@@ -15,11 +15,7 @@ namespace Final_Web_Programming_Project
 
         protected void Page_Load(object sender, EventArgs e)
         {
-            SqlConnection conn1 = new SqlConnection(connStr);
-            conn1.Open();
-            CreateAchievementsTable(conn1);
-            conn1.Close();
-
+          
             if (Request.HttpMethod == "POST")
             {
 
@@ -40,6 +36,7 @@ namespace Final_Web_Programming_Project
                 try
                 {
                     command.ExecuteNonQuery();
+                    Session["UserFullName"] = fullName;
                     Response.Redirect("Index.aspx");
                 }
 
