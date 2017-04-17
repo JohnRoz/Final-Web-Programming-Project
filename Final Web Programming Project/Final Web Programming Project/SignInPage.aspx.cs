@@ -35,7 +35,11 @@ namespace Final_Web_Programming_Project
                             if (reader.GetString(2) == password)
                             {
                                 Session["UserId"] = reader.GetInt32(0);
+                                Session["Username"] = reader.GetString(1);
+                                Session["UserEmail"] = reader.GetString(3);
                                 Session["UserFullName"] = reader.GetString(4);
+                                Session["UserLevel"] = reader.GetInt32(5);
+                                Session["UserXP"] = reader.GetInt32(6);
                                 Response.Redirect("Index.aspx");
                             }
 

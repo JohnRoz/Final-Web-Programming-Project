@@ -36,7 +36,10 @@ namespace Final_Web_Programming_Project
                 try
                 {
                     command.ExecuteNonQuery();
+                    Session["Username"] = username;
+                    Session["UserEmail"] = email;
                     Session["UserFullName"] = fullName;
+
                     Response.Redirect("Index.aspx");
                 }
 

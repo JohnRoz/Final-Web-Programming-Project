@@ -2,7 +2,7 @@
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 
-<html>
+<html xmlns="http://www.w3.org/1999/xhtml">
 
 <head>
     <title>Absolute - Home</title>
@@ -38,7 +38,7 @@
 
                 <div class="row">
                     <!-- WELCOME USER -->
-                    <b id="Welcome" class="6u TextBold">Welcome <%= user_name %> !</b>
+                    <b id="Welcome" class="6u TextBold">Welcome <%= user_full_name %> !</b>
 
                     <!-- Sign Up & Sign In -->
                     <div id="HeaderLinks" class="6u SiteHeaderLink">
@@ -58,11 +58,11 @@
                 <!-- Nav -->
                 <nav id="nav">
 					<ul>
-						<li class="active"><a href="index.html">Home</a></li>
-						<li><a href="MyProfile.html">My Profile</a></li>
-						<li><a href="ChordsTraining.html">Chords Training</a></li>
-						<li><a href="NotesTraining.html">Notes Training</a></li>
-						<li><a href="IntervalTraining.html">Intervals Training</a></li>
+						<li class="active"><a href="Index.aspx">Home</a></li>
+						<li><a href="MyProfile.aspx">My Profile</a></li>
+						<li><a href="ChordsTraining.aspx">Chords Training</a></li>
+						<li><a href="NotesTraining.aspx">Notes Training</a></li>
+						<li><a href="IntervalTraining.aspx">Intervals Training</a></li>
 					</ul>
 				</nav>
             </div>
