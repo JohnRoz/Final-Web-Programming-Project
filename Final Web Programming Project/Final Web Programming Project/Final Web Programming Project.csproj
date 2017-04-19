@@ -270,6 +270,7 @@
     <None Include="Resources\g_note_4.wav" />
     <None Include="Resources\g_note_5.wav" />
     <Content Include="MyProfile.aspx" />
+    <Content Include="PlayRandomChords.js" />
     <Content Include="SignInPage.aspx" />
     <Content Include="SignUpPage.aspx" />
     <Content Include="ValidateSignUpDetails.js" />

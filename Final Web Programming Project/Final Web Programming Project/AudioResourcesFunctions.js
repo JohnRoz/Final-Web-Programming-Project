@@ -66,13 +66,6 @@ var notesEnum = {
     G_DIESE: 12
 };
 
-var chordTypeEnum = {
-    MAJOR: 0,
-    MINOR: 1,
-    DIMINISHED: 2,
-    AUGMENTED: 3
-};
-
 function get_A_notes() {
     var A_notes_list = [];
     for (var i = 1; i <= 7; i++)

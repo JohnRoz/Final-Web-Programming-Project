@@ -23,6 +23,10 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
+    <!-- Linking my PlayRandomChords.js & my AudioResourcesFunctions.js Javascript files. -->
+    <script src="PlayRandomChords.js"></script>
+    <script src="AudioResourcesFunctions.js"></script>
+
     <!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
     <!--[if lte IE 9]><link rel="stylesheet" href="css/ie/v9.css" /><![endif]-->
 </head>
@@ -78,15 +82,17 @@
                             <header>
                                 <h2>Play a Chord !</h2>
                             </header>
-                            <ul class="style1">
-                                <li class="first"><span class="fa fa-check"></span><a href="#">Maecenas luctus lectus at sapien</a></li>
-                                <li><span class="fa fa-check"></span><a href="#">Etiam rhoncus volutpat erat</a></li>
-                                <li><span class="fa fa-check"></span><a href="#">Donec dictum metus in sapien</a></li>
-                                <li><span class="fa fa-check"></span><a href="#">Integer gravida nibh quis urna</a></li>
-                                <li><span class="fa fa-check"></span><a href="#">Etiam posuere augue sit amet nisl</a></li>
-                                <li><span class="fa fa-check"></span><a href="#">Nulla luctus eleifend purus</a></li>
-                            </ul>
-                            <a href="#" class="button">Full Article</a>
+                            <audio id="audio" src="">Audio HTML tag is not supported in this browser</audio>
+                            <div class="playBtn">
+                                <button id="playChordBtn" class="btn btn-success" onclick="playRandomChord()">Play Chord !</button>
+                                <br />
+                                <br />
+                                <br />
+                                <button id="replayChordBtn" class="btn btn-success" onclick="playChord()">Replay !</button>
+                            </div>
+
+
+
                         </section>
                     </div>
 
@@ -98,15 +104,15 @@
                         <table id="ChordsTrainingTable">
                             <tr>
                                 <td>
-                                    <button id="MajorBtn">Major</button></td>
+                                    <button id="MajorBtn" onclick="checkMajAnswer()">Major</button></td>
                                 <td>
-                                    <button id="MinorBtn">Minor</button></td>
+                                    <button id="MinorBtn" onclick="checkMinAnswer()">Minor</button></td>
                             </tr>
                             <tr>
                                 <td>
-                                    <button id="DiminishedBtn">Diminished</button></td>
+                                    <button id="DiminishedBtn" onclick="checkDimAnswer()">Diminished</button></td>
                                 <td>
-                                    <button id="AugmentedBtn">Augmented</button></td>
+                                    <button id="AugmentedBtn" onclick="checkAugAnswer()">Augmented</button></td>
                             </tr>
                         </table>
                     </div>
@@ -115,6 +121,11 @@
                         <section>
                             <header>
                                 <h2>Check your answer !</h2>
+                            </header>
+
+                            <header>
+                                <h2 class="answer text-success" id="correct">correct !</h2>
+                                <h2 class="answer text-danger" id="wrong">Wrong !</h2>
                             </header>
 
                         </section>

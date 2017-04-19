@@ -226,3 +226,19 @@
 		width: 4cm;
 		height: 4cm;
 	}
+
+	.answer
+	{
+		letter-spacing: -2px;
+		text-transform: uppercase;
+		font-weight: 900;
+		font-size: 2em;
+	}
+
+	#playChordBtn, #replayChordBtn
+	{
+		width: 3cm;
+		
+	}
+
+	
