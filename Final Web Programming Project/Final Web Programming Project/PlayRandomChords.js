@@ -5,7 +5,6 @@ var wrongAnswersCounter = 0;
 var XP_ADDITION_FOR_CHORDS = 5;
 
 $(document).ready(function () {
-
     hideCorrectAndWrongHeaders();
 });
 
@@ -162,10 +161,9 @@ function hideCorrectAndWrongHeaders() {
 }
 
 function gainXP() {
-    var currentXP = $("CurrentXP").innerHTML.replace("+", "");
+    var currentXP = $("#CurrentXP").html().replace("XP: +", "");
     var XP = parseInt(currentXP) + XP_ADDITION_FOR_CHORDS;
-    $("CurrentXP").html("+ " + XP.toString());
-    alert(XP.toString());
+    $("#CurrentXP").html("XP: + " + XP.toString());
 }
 
 
