@@ -1,14 +1,17 @@
 ﻿var chordType;
 var currentChord;
 var isClicked = false;
+var wrongAnswersCounter = 0;
+var XP_ADDITION_FOR_CHORDS = 5;
 
 $(document).ready(function () {
 
     hideCorrectAndWrongHeaders();
 });
 
+
 function playRandomChord() {
-    
+
     hideCorrectAndWrongHeaders();
 
     if (!isClicked) {
@@ -43,7 +46,7 @@ function playChord() {
 }
 
 
-function setRandomMajorChordAsResource(){
+function setRandomMajorChordAsResource() {
 
     var majChords = get_maj_chords();
     currentChord = majChords[getRndInteger(0, majChords.length)];
@@ -81,10 +84,14 @@ function checkMajAnswer() {
     if (chordType == chordTypeEnum.MAJOR) {
         isClicked = false;
         document.getElementById("correct").style.visibility = "visible";
+        gainXP();
     }
 
-    else
+    else {
         document.getElementById("wrong").style.visibility = "visible";
+        wrongAnswersCounter++;
+        checkGameOver();
+    }
 }
 
 function checkMinAnswer() {
@@ -93,10 +100,14 @@ function checkMinAnswer() {
     if (chordType == chordTypeEnum.MINOR) {
         isClicked = false;
         document.getElementById("correct").style.visibility = "visible";
+        gainXP();
     }
 
-    else
+    else {
         document.getElementById("wrong").style.visibility = "visible";
+        wrongAnswersCounter++;
+        checkGameOver();
+    }
 }
 
 function checkDimAnswer() {
@@ -105,10 +116,14 @@ function checkDimAnswer() {
     if (chordType == chordTypeEnum.DIMINISHED) {
         isClicked = false;
         document.getElementById("correct").style.visibility = "visible";
+        gainXP();
     }
 
-    else
+    else {
         document.getElementById("wrong").style.visibility = "visible";
+        wrongAnswersCounter++;
+        checkGameOver();
+    }
 }
 
 function checkAugAnswer() {
@@ -117,16 +132,40 @@ function checkAugAnswer() {
     if (chordType == chordTypeEnum.AUGMENTED) {
         isClicked = false;
         document.getElementById("correct").style.visibility = "visible";
+        gainXP();
     }
 
-    else
+    else {
         document.getElementById("wrong").style.visibility = "visible";
+        wrongAnswersCounter++;
+        checkGameOver();
+    }
 
+}
+
+function checkGameOver() {
+    switch (wrongAnswersCounter) {
+        case 1:
+            break;
+        case 2:
+            break;
+        case 3:
+            break;
+        default: //GAME OVER!
+            break;
+    }
 }
 
 function hideCorrectAndWrongHeaders() {
     document.getElementById("correct").style.visibility = "hidden";
     document.getElementById("wrong").style.visibility = "hidden";
+}
+
+function gainXP() {
+    var currentXP = $("CurrentXP").innerHTML.replace("+", "");
+    var XP = parseInt(currentXP) + XP_ADDITION_FOR_CHORDS;
+    $("CurrentXP").html("+ " + XP.toString());
+    alert(XP.toString());
 }
 
 

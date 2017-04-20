@@ -4,6 +4,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <title>Absolute - Chords Training</title>
+   
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
     <meta name="description" content="" />
     <meta name="keywords" content="" />
@@ -83,14 +84,10 @@
                                 <h2>Play a Chord !</h2>
                             </header>
                             <audio id="audio" src="">Audio HTML tag is not supported in this browser</audio>
-                            <div class="playBtn">
                                 <button id="playChordBtn" class="btn btn-success" onclick="playRandomChord()">Play Chord !</button>
                                 <br />
-                                <br />
-                                <br />
                                 <button id="replayChordBtn" class="btn btn-success" onclick="playChord()">Replay !</button>
-                            </div>
-
+                                <h2 class="answer text-success" id="CurrentXP">+ 0</h2>
 
 
                         </section>
