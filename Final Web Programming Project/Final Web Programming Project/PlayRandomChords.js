@@ -3,6 +3,7 @@ var currentChord;
 var isClicked = false;
 var wrongAnswersCounter = 0;
 var XP_ADDITION_FOR_CHORDS = 5;
+ID_OF_USER_ANSWER_AUDIO_TAG = "UserAnswerSound";
 
 $(document).ready(function () {
     hideCorrectAndWrongHeaders();
@@ -38,7 +39,6 @@ function playRandomChord() {
 function playChord() {
     if (currentChord != undefined && currentChord != null && chordType != undefined && chordType != null) {
         document.getElementById("audio").play();
-
     }
     else
         alert("You have to play something first in order to replay it.");
@@ -81,14 +81,15 @@ function checkMajAnswer() {
     hideCorrectAndWrongHeaders();
 
     if (chordType == chordTypeEnum.MAJOR) {
-        isClicked = false;
         document.getElementById("correct").style.visibility = "visible";
         gainXP();
+        isClicked = false;
     }
 
     else {
         document.getElementById("wrong").style.visibility = "visible";
         wrongAnswersCounter++;
+        playWrongSound(ID_OF_USER_ANSWER_AUDIO_TAG);
         checkGameOver();
     }
 }
@@ -97,14 +98,16 @@ function checkMinAnswer() {
     hideCorrectAndWrongHeaders();
 
     if (chordType == chordTypeEnum.MINOR) {
-        isClicked = false;
+
         document.getElementById("correct").style.visibility = "visible";
         gainXP();
+        isClicked = false;
     }
 
     else {
         document.getElementById("wrong").style.visibility = "visible";
         wrongAnswersCounter++;
+        playWrongSound(ID_OF_USER_ANSWER_AUDIO_TAG);
         checkGameOver();
     }
 }
@@ -113,14 +116,15 @@ function checkDimAnswer() {
     hideCorrectAndWrongHeaders();
 
     if (chordType == chordTypeEnum.DIMINISHED) {
-        isClicked = false;
         document.getElementById("correct").style.visibility = "visible";
         gainXP();
+        isClicked = false;
     }
 
     else {
         document.getElementById("wrong").style.visibility = "visible";
         wrongAnswersCounter++;
+        playWrongSound(ID_OF_USER_ANSWER_AUDIO_TAG);
         checkGameOver();
     }
 }
@@ -129,26 +133,31 @@ function checkAugAnswer() {
     hideCorrectAndWrongHeaders();
 
     if (chordType == chordTypeEnum.AUGMENTED) {
-        isClicked = false;
         document.getElementById("correct").style.visibility = "visible";
         gainXP();
+        isClicked = false;
     }
 
     else {
-        document.getElementById("wrong").style.visibility = "visible";
-        wrongAnswersCounter++;
-        checkGameOver();
+        if (isClicked) {
+            document.getElementById("wrong").style.visibility = "visible";
+            wrongAnswersCounter++;
+            playWrongSound(ID_OF_USER_ANSWER_AUDIO_TAG);
+            checkGameOver();
+        }
+        else
+            alert("you don't want to lose more life, do you?");
     }
 
 }
 
 function checkGameOver() {
     switch (wrongAnswersCounter) {
-        case 1:
+        case 1: document.getElementById("LifeIcon1").setAttribute("src", "Res/x_icon.png");
             break;
-        case 2:
+        case 2: document.getElementById("LifeIcon2").setAttribute("src", "Res/x_icon.png");
             break;
-        case 3:
+        case 3: document.getElementById("LifeIcon3").setAttribute("src", "Res/x_icon.png");
             break;
         default: //GAME OVER!
             break;
@@ -161,9 +170,22 @@ function hideCorrectAndWrongHeaders() {
 }
 
 function gainXP() {
-    var currentXP = $("#CurrentXP").html().replace("XP: +", "");
-    var XP = parseInt(currentXP) + XP_ADDITION_FOR_CHORDS;
-    $("#CurrentXP").html("XP: + " + XP.toString());
+    if (isClicked) {
+        var currentXP = $("#CurrentXP").html().replace("XP: +", "");
+        var XP = parseInt(currentXP) + XP_ADDITION_FOR_CHORDS;
+        $("#CurrentXP").html("XP: + " + XP.toString());
+    }
+    else
+        alert("Don't be greedy...you won't get more XP that way...")
+}
+
+/**
+* This method is to play the 'wrong_sound' mp3 file every time the user makes a mistake.
+* audioTagID - is the ID of the audio tag that is supposed to play the 'wrong_sound'.
+*/
+function playWrongSound(audioTagID) {
+    document.getElementById(audioTagID).setAttribute("src", "Res/wrong_sound.mp3");
+    document.getElementById(audioTagID).play();
 }
 
 

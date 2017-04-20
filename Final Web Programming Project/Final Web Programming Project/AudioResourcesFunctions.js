@@ -171,3 +171,12 @@ function getRndInteger(min, max) {
     // This function return a random number between min (included) and max (excluded)
     return Math.floor(Math.random() * (max - min)) + min;
 }
+
+/**
+* This method is to play the 'wrong_sound' mp3 file every time the user makes a mistake.
+* audioTagID - is the ID of the audio tag that is supposed to play the 'wrong_sound'.
+*/
+function playWrongSound(audioTagID) {
+    $("#" + audioTagID).setAttribute("src", "Res/wrong_sound.mp3");
+    $("#" + audioTagID).play();
+}

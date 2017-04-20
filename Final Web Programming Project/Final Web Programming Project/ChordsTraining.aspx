@@ -25,8 +25,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Linking my PlayRandomChords.js & my AudioResourcesFunctions.js Javascript files. -->
-    <script src="PlayRandomChords.js"></script>
     <script src="AudioResourcesFunctions.js"></script>
+    <script src="PlayRandomChords.js"></script>
 
     <!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
     <!--[if lte IE 9]><link rel="stylesheet" href="css/ie/v9.css" /><![endif]-->
@@ -83,6 +83,7 @@
                             <header>
                                 <h2>Play a Chord !</h2>
                             </header>
+                            <audio id="UserAnswerSound" src=""></audio>
                             <audio id="audio" src="">Audio HTML tag is not supported in this browser</audio>
                             <button id="playChordBtn" class="btn btn-success" onclick="playRandomChord()">Play Chord !</button>
                             <br />
