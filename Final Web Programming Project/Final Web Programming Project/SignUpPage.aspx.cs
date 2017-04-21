@@ -39,6 +39,8 @@ namespace Final_Web_Programming_Project
                     Session["Username"] = username;
                     Session["UserEmail"] = email;
                     Session["UserFullName"] = fullName;
+                    Session["UserLevel"] = 1;
+                    Session["UserXP"] = 0;
 
                     Response.Redirect("Index.aspx");
                 }

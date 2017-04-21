@@ -42,7 +42,7 @@
                 <input class="form-control" type="password" name="passwordSignInInput" id="passwordSignInInput" placeholder="Enter password" />
                 <br />
 
-                <input type="submit" class="btn btn-primary"/>
+                <input type="submit" class="btn btn-primary" value="Sign In"/>
             </div>
         </form>
     </div>
