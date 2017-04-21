@@ -87,10 +87,14 @@ function checkMajAnswer() {
     }
 
     else {
-        document.getElementById("wrong").style.visibility = "visible";
-        wrongAnswersCounter++;
-        playWrongSound(ID_OF_USER_ANSWER_AUDIO_TAG);
-        checkGameOver();
+        if (isClicked) {
+            document.getElementById("wrong").style.visibility = "visible";
+            wrongAnswersCounter++;
+            playWrongSound(ID_OF_USER_ANSWER_AUDIO_TAG);
+            checkGameOver();
+        }
+        else
+            alert("you don't want to lose more life, do you?");
     }
 }
 
@@ -105,10 +109,14 @@ function checkMinAnswer() {
     }
 
     else {
-        document.getElementById("wrong").style.visibility = "visible";
-        wrongAnswersCounter++;
-        playWrongSound(ID_OF_USER_ANSWER_AUDIO_TAG);
-        checkGameOver();
+        if (isClicked) {
+            document.getElementById("wrong").style.visibility = "visible";
+            wrongAnswersCounter++;
+            playWrongSound(ID_OF_USER_ANSWER_AUDIO_TAG);
+            checkGameOver();
+        }
+        else
+            alert("you don't want to lose more life, do you?");
     }
 }
 
@@ -122,10 +130,14 @@ function checkDimAnswer() {
     }
 
     else {
-        document.getElementById("wrong").style.visibility = "visible";
-        wrongAnswersCounter++;
-        playWrongSound(ID_OF_USER_ANSWER_AUDIO_TAG);
-        checkGameOver();
+        if (isClicked) {
+            document.getElementById("wrong").style.visibility = "visible";
+            wrongAnswersCounter++;
+            playWrongSound(ID_OF_USER_ANSWER_AUDIO_TAG);
+            checkGameOver();
+        }
+        else
+            alert("you don't want to lose more life, do you?");
     }
 }
 
