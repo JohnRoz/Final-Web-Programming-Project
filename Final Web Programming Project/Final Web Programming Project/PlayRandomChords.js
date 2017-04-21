@@ -77,16 +77,19 @@ function setRandomAugmentedChordAsResource() {
     document.getElementById("audio").setAttribute("src", currentChord);
 }
 
+//USER ANSWERED MAJOR  
 function checkMajAnswer() {
     hideCorrectAndWrongHeaders();
 
     if (chordType == chordTypeEnum.MAJOR) {
         document.getElementById("correct").style.visibility = "visible";
+        playCorrectSound();
         gainXP();
         isClicked = false;
     }
 
     else {
+        alert("MAJ " + isClicked.toString());
         if (isClicked) {
             document.getElementById("wrong").style.visibility = "visible";
             wrongAnswersCounter++;
@@ -98,17 +101,19 @@ function checkMajAnswer() {
     }
 }
 
+//USER ANSWERED - MINOR
 function checkMinAnswer() {
     hideCorrectAndWrongHeaders();
-
     if (chordType == chordTypeEnum.MINOR) {
 
         document.getElementById("correct").style.visibility = "visible";
+        playCorrectSound();
         gainXP();
         isClicked = false;
     }
 
     else {
+        alert("MIN " + isClicked.toString());
         if (isClicked) {
             document.getElementById("wrong").style.visibility = "visible";
             wrongAnswersCounter++;
@@ -120,16 +125,19 @@ function checkMinAnswer() {
     }
 }
 
+//USER ANSWERED - DIMINISHED
 function checkDimAnswer() {
     hideCorrectAndWrongHeaders();
 
     if (chordType == chordTypeEnum.DIMINISHED) {
         document.getElementById("correct").style.visibility = "visible";
+        playCorrectSound();
         gainXP();
         isClicked = false;
     }
 
     else {
+        alert("DIM " + isClicked.toString());
         if (isClicked) {
             document.getElementById("wrong").style.visibility = "visible";
             wrongAnswersCounter++;
@@ -141,16 +149,19 @@ function checkDimAnswer() {
     }
 }
 
+//USER ANSWERED - AUGMENTED
 function checkAugAnswer() {
     hideCorrectAndWrongHeaders();
 
     if (chordType == chordTypeEnum.AUGMENTED) {
         document.getElementById("correct").style.visibility = "visible";
+        playCorrectSound();
         gainXP();
         isClicked = false;
     }
 
     else {
+        alert("AUG " + isClicked.toString());
         if (isClicked) {
             document.getElementById("wrong").style.visibility = "visible";
             wrongAnswersCounter++;
@@ -197,6 +208,15 @@ function gainXP() {
 */
 function playWrongSound(audioTagID) {
     document.getElementById(audioTagID).setAttribute("src", "Res/wrong_sound.mp3");
+    document.getElementById(audioTagID).play();
+}
+
+/**
+* This method is to play the 'correct sound' file every time the user answers correctly.
+* audioTagID - is the ID of the audio tag that is supposed to play the 'correct sound'.
+*/
+function playCorrectSound(audioTagID){
+    document.getElementById(audioTagID).setAttribute("src", "Resources/c_note_6.wav");
     document.getElementById(audioTagID).play();
 }
 
