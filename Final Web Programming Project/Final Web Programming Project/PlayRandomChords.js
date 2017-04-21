@@ -86,6 +86,7 @@ function checkMajAnswer() {
         playCorrectSound();
         gainXP();
         isClicked = false;
+        alert("correct! MAJ " + isClicked.toString());
     }
 
     else {
@@ -110,6 +111,7 @@ function checkMinAnswer() {
         playCorrectSound();
         gainXP();
         isClicked = false;
+        alert("correct! MIN " + isClicked.toString());
     }
 
     else {
@@ -134,6 +136,7 @@ function checkDimAnswer() {
         playCorrectSound();
         gainXP();
         isClicked = false;
+        alert("correct! DIM " + isClicked.toString());
     }
 
     else {
@@ -158,6 +161,7 @@ function checkAugAnswer() {
         playCorrectSound();
         gainXP();
         isClicked = false;
+        alert("correct! AUG " + isClicked.toString());
     }
 
     else {
