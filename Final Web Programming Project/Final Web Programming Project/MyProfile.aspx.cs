@@ -52,13 +52,14 @@ namespace Final_Web_Programming_Project
 
         private void LoadAchievementsList()
         {
+            int userId = int.Parse(Session["UserId"].ToString());
             string listItems = "";
 
             SqlConnection conn = new SqlConnection(Index.connStr);
             conn.Open();
 
             SqlCommand command = conn.CreateCommand();
-            command.CommandText = "SELECT * FROM Achievements;";
+            command.CommandText = string.Format("SELECT * FROM Achievements WHERE UserId = {0};", userId);
             using (SqlDataReader reader = command.ExecuteReader())
             {
                 while (reader.Read())

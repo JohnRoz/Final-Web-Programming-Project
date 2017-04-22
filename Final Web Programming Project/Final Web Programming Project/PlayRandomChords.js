@@ -15,7 +15,7 @@ $(document).ready(function () {
 function playRandomChord() {
 
     hideCorrectAndWrongHeaders();
-    if (isGameOver == false) {
+    if (!isGameOver) {
         if (!isClicked) {
             setChordType();
 
@@ -43,7 +43,7 @@ function playRandomChord() {
 }
 
 function playChord() {
-    if (isGameOver == false) {
+    if (!isGameOver) {
         if (currentChord != undefined && currentChord != null && chordType != undefined && chordType != null) {
             document.getElementById("audio").play();
         }
@@ -109,7 +109,7 @@ function checkAugAnswer() {
 
 function checkChordAnswer(currentChordType) {
     hideCorrectAndWrongHeaders();
-    if (isGameOver == false) {
+    if (!isGameOver) {
         if (chordType == currentChordType) {
             document.getElementById("correct").style.visibility = "visible";
             gainXP();
