@@ -1,8 +1,10 @@
 ﻿var chordType;
 var currentChord;
 var isClicked = false;
+var isGameOver = false;
 var wrongAnswersCounter = 0;
 var XP_ADDITION_FOR_CHORDS = 5;
+var XP = 0;
 ID_OF_USER_ANSWER_AUDIO_TAG = "UserAnswerSound";
 
 $(document).ready(function () {
@@ -13,35 +15,43 @@ $(document).ready(function () {
 function playRandomChord() {
 
     hideCorrectAndWrongHeaders();
+    if (isGameOver == false) {
+        if (!isClicked) {
+            setChordType();
 
-    if (!isClicked) {
-        setChordType();
+            switch (chordType) {
+                case chordTypeEnum.MAJOR: setRandomMajorChordAsResource();
+                    break;
+                case chordTypeEnum.MINOR: setRandomMinorChordAsResource();
+                    break;
+                case chordTypeEnum.DIMINISHED: setRandomDiminishedChordAsResource();
+                    break;
+                case chordTypeEnum.AUGMENTED: setRandomAugmentedChordAsResource();
+                    break;
+            }
 
-        switch (chordType) {
-            case chordTypeEnum.MAJOR: setRandomMajorChordAsResource();
-                break;
-            case chordTypeEnum.MINOR: setRandomMinorChordAsResource();
-                break;
-            case chordTypeEnum.DIMINISHED: setRandomDiminishedChordAsResource();
-                break;
-            case chordTypeEnum.AUGMENTED: setRandomAugmentedChordAsResource();
-                break;
+            playChord();
+
+            isClicked = true;
         }
-
-        playChord();
-
-        isClicked = true;
+        else
+            alert("You have to answer correctly first.");
     }
     else
-        alert("You have to answer correctly first.");
+        alert("The game is over...refresh to restart.");
+
 }
 
 function playChord() {
-    if (currentChord != undefined && currentChord != null && chordType != undefined && chordType != null) {
-        document.getElementById("audio").play();
+    if (isGameOver == false) {
+        if (currentChord != undefined && currentChord != null && chordType != undefined && chordType != null) {
+            document.getElementById("audio").play();
+        }
+        else
+            alert("You have to play something first in order to replay it.");
     }
     else
-        alert("You have to play something first in order to replay it.");
+        alert("The game is over...refresh to restart.");
 }
 
 
@@ -79,103 +89,46 @@ function setRandomAugmentedChordAsResource() {
 
 //USER ANSWERED MAJOR  
 function checkMajAnswer() {
-    hideCorrectAndWrongHeaders();
-
-    if (chordType == chordTypeEnum.MAJOR) {
-        document.getElementById("correct").style.visibility = "visible";
-        playCorrectSound();
-        gainXP();
-        isClicked = false;
-        alert("correct! MAJ " + isClicked.toString());
-    }
-
-    else {
-        alert("MAJ " + isClicked.toString());
-        if (isClicked) {
-            document.getElementById("wrong").style.visibility = "visible";
-            wrongAnswersCounter++;
-            playWrongSound(ID_OF_USER_ANSWER_AUDIO_TAG);
-            checkGameOver();
-        }
-        else
-            alert("you don't want to lose more life, do you?");
-    }
+    checkChordAnswer(chordTypeEnum.MAJOR);
 }
 
 //USER ANSWERED - MINOR
 function checkMinAnswer() {
-    hideCorrectAndWrongHeaders();
-    if (chordType == chordTypeEnum.MINOR) {
-
-        document.getElementById("correct").style.visibility = "visible";
-        playCorrectSound();
-        gainXP();
-        isClicked = false;
-        alert("correct! MIN " + isClicked.toString());
-    }
-
-    else {
-        alert("MIN " + isClicked.toString());
-        if (isClicked) {
-            document.getElementById("wrong").style.visibility = "visible";
-            wrongAnswersCounter++;
-            playWrongSound(ID_OF_USER_ANSWER_AUDIO_TAG);
-            checkGameOver();
-        }
-        else
-            alert("you don't want to lose more life, do you?");
-    }
+    checkChordAnswer(chordTypeEnum.MINOR);
 }
 
 //USER ANSWERED - DIMINISHED
 function checkDimAnswer() {
-    hideCorrectAndWrongHeaders();
-
-    if (chordType == chordTypeEnum.DIMINISHED) {
-        document.getElementById("correct").style.visibility = "visible";
-        playCorrectSound();
-        gainXP();
-        isClicked = false;
-        alert("correct! DIM " + isClicked.toString());
-    }
-
-    else {
-        alert("DIM " + isClicked.toString());
-        if (isClicked) {
-            document.getElementById("wrong").style.visibility = "visible";
-            wrongAnswersCounter++;
-            playWrongSound(ID_OF_USER_ANSWER_AUDIO_TAG);
-            checkGameOver();
-        }
-        else
-            alert("you don't want to lose more life, do you?");
-    }
+    checkChordAnswer(chordTypeEnum.DIMINISHED);
 }
 
 //USER ANSWERED - AUGMENTED
 function checkAugAnswer() {
+    checkChordAnswer(chordTypeEnum.AUGMENTED);
+}
+
+function checkChordAnswer(currentChordType) {
     hideCorrectAndWrongHeaders();
-
-    if (chordType == chordTypeEnum.AUGMENTED) {
-        document.getElementById("correct").style.visibility = "visible";
-        playCorrectSound();
-        gainXP();
-        isClicked = false;
-        alert("correct! AUG " + isClicked.toString());
-    }
-
-    else {
-        alert("AUG " + isClicked.toString());
-        if (isClicked) {
-            document.getElementById("wrong").style.visibility = "visible";
-            wrongAnswersCounter++;
-            playWrongSound(ID_OF_USER_ANSWER_AUDIO_TAG);
-            checkGameOver();
+    if (isGameOver == false) {
+        if (chordType == currentChordType) {
+            document.getElementById("correct").style.visibility = "visible";
+            gainXP();
+            isClicked = false;
         }
-        else
-            alert("you don't want to lose more life, do you?");
-    }
 
+        else {
+            if (isClicked) {
+                document.getElementById("wrong").style.visibility = "visible";
+                wrongAnswersCounter++;
+                playWrongSound(ID_OF_USER_ANSWER_AUDIO_TAG);
+                checkGameOver();
+            }
+            else
+                alert("you don't want to lose more life, do you?");
+        }
+    }
+    else
+        alert("The game is over...refresh to restart.");
 }
 
 function checkGameOver() {
@@ -184,11 +137,17 @@ function checkGameOver() {
             break;
         case 2: document.getElementById("LifeIcon2").setAttribute("src", "Res/x_icon.png");
             break;
-        case 3: document.getElementById("LifeIcon3").setAttribute("src", "Res/x_icon.png");
-            break;
-        default: //GAME OVER!
+        case 3:
+            document.getElementById("LifeIcon3").setAttribute("src", "Res/x_icon.png");
+            gameOver();
             break;
     }
+}
+
+function gameOver() {
+    isGameOver = true;
+    alert("GAME OVER! Don't forget to save your progress!");
+    $("#XP").val(XP.toString());
 }
 
 function hideCorrectAndWrongHeaders() {
@@ -198,9 +157,13 @@ function hideCorrectAndWrongHeaders() {
 
 function gainXP() {
     if (isClicked) {
+        //Play Correct answer sound
+        playCorrectSound(ID_OF_USER_ANSWER_AUDIO_TAG);
+
         var currentXP = $("#CurrentXP").html().replace("XP: +", "");
-        var XP = parseInt(currentXP) + XP_ADDITION_FOR_CHORDS;
+        XP = parseInt(currentXP) + XP_ADDITION_FOR_CHORDS;
         $("#CurrentXP").html("XP: + " + XP.toString());
+        $("#XP").val(XP.toString());
     }
     else
         alert("Don't be greedy...you won't get more XP that way...")
@@ -219,7 +182,7 @@ function playWrongSound(audioTagID) {
 * This method is to play the 'correct sound' file every time the user answers correctly.
 * audioTagID - is the ID of the audio tag that is supposed to play the 'correct sound'.
 */
-function playCorrectSound(audioTagID){
+function playCorrectSound(audioTagID) {
     document.getElementById(audioTagID).setAttribute("src", "Resources/c_note_6.wav");
     document.getElementById(audioTagID).play();
 }
