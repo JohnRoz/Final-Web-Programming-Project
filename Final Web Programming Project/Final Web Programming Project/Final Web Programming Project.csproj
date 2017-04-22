@@ -272,6 +272,7 @@
     <Content Include="MyProfile.aspx" />
     <Content Include="PlayRandomChords.js" />
     <Content Include="SignInPage.aspx" />
+    <Content Include="SignOutPage.aspx" />
     <Content Include="SignUpPage.aspx" />
     <Content Include="ValidateSignUpDetails.js" />
     <Content Include="Web.config" />
@@ -316,6 +317,13 @@
     </Compile>
     <Compile Include="SignInPage.aspx.designer.cs">
       <DependentUpon>SignInPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SignOutPage.aspx.cs">
+      <DependentUpon>SignOutPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SignOutPage.aspx.designer.cs">
+      <DependentUpon>SignOutPage.aspx</DependentUpon>
     </Compile>
     <Compile Include="SignUpPage.aspx.cs">
       <DependentUpon>SignUpPage.aspx</DependentUpon>

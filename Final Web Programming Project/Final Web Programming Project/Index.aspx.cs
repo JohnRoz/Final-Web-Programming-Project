@@ -12,18 +12,24 @@ namespace Final_Web_Programming_Project
     {
         public static string connStr = "Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=\"|DataDirectory|\\AbsoluteDatabase.mdf\";Integrated Security=True";
         public string user_full_name = "User";
+        public string logInOrOutHTML = "";
         protected void Page_Load(object sender, EventArgs e)
         {
-            if (Session["Username"] != null)
+            if (Session["Username"] != null)//LOGGED IN
             {
                 user_full_name = Session["UserFullName"].ToString();
 
                 //Add the UserID to the Session
                 AddUserIDToSession(new SqlConnection(connStr), Session["Username"].ToString());
+
+                logInOrOutHTML = "<!-- Sign Out --><div id = \"HeaderLinks\" class=\"6u SiteHeaderLink\"><a id = \"SignOut\" class=\"TextBold\" href=\"SignOutPage.aspx\">Sign Out</a></div>";
+
             }
-            
-            
-            
+
+            else
+            {
+                logInOrOutHTML = "<!-- Sign Up & Sign In --> <div id = \"HeaderLinks\" class=\"6u SiteHeaderLink\"><a id = \"SignInLink\" class=\"TextBold\" href=\"SignInPage.aspx\">Sign In</a><span> or </span><a id = \"SignUpLink\" class=\"TextBold\" href=\"SignUpPage.aspx\">Sign Up</a></div>";
+            }
         }
 
         private void AddUserIDToSession(SqlConnection conn, string username)

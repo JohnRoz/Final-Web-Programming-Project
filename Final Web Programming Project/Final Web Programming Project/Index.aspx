@@ -40,12 +40,8 @@
                     <!-- WELCOME USER -->
                     <b id="Welcome" class="6u TextBold">Welcome <%= user_full_name %> !</b>
 
-                    <!-- Sign Up & Sign In -->
-                    <div id="HeaderLinks" class="6u SiteHeaderLink">
-                        <a id="SignInLink" class="TextBold" href="SignInPage.aspx">Sign In</a>
-                        <span>or</span>
-                        <a id="SignUpLink" class="TextBold" href="SignUpPage.aspx">Sign Up</a>
-                    </div>
+                    <%=logInOrOutHTML %>
+
                 </div>
 
 

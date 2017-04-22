@@ -64,6 +64,32 @@
 		}
 
 
+	/*********************************************************************************/
+	/* Sign Out */
+	/*********************************************************************************/
+	.container > .row > .SiteHeaderLink input , #HeaderLinks
+	{
+		color: #FFFFFF;
+		text-align: right !important;
+		font-size: 1.1em;
+	}
+
+		.container > .row > .SiteHeaderLink input 
+		{
+			text-decoration: none;
+			background: transparent;
+			-webkit-appearance: none;
+			border: none;
+			cursor: pointer;
+			outline: none;
+		}
+
+			.container > .row > .SiteHeaderLink input:hover
+			{
+					text-decoration: underline !important;
+			}
+
+
 /*********************************************************************************/
 /* Logo                                                                          */
 /*********************************************************************************/
