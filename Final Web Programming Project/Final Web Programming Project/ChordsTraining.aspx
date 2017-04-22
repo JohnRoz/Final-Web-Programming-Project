@@ -32,11 +32,6 @@
     <!--[if lte IE 9]><link rel="stylesheet" href="css/ie/v9.css" /><![endif]-->
 </head>
 <body>
-    <form id="form1" runat="server">
-        <div>
-        </div>
-    </form>
-
     <div id="wrapper">
 
         <!-- Header -->
@@ -67,8 +62,8 @@
                         <li><a href="Index.aspx">Home</a></li>
                         <li><a href="MyProfile.aspx">My Profile</a></li>
                         <li class="active"><a href="ChordsTraining.aspx">Chords Training</a></li>
-                        <li><a href="NotesTraining.aspx">Notes Training</a></li>
-                        <li><a href="IntervalTraining.aspx">Interval Training</a></li>
+                        <li><a href="#">Notes Training</a></li>
+                        <li><a href="#">Interval Training</a></li>
                     </ul>
                 </nav>
             </div>
@@ -130,6 +125,15 @@
                                 <h2 class="answer text-success" id="correct">correct !</h2>
                                 <h2 class="answer text-danger" id="wrong">Wrong !</h2>
                             </header>
+                            <br />
+                            <br />
+
+                            <form id="SaveProgress" runat="server">
+                                <div>
+                                    <input name="XP" id="XP" type="text" hidden />
+                                    <input type="submit" value="Save Progress" class="btn btn-primary" />
+                                </div>
+                            </form>
 
                         </section>
                     </div>

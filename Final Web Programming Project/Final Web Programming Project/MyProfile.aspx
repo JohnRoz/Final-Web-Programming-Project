@@ -59,8 +59,8 @@
                         <li><a href="Index.aspx">Home</a></li>
                         <li class="active"><a href="MyProfile.aspx">My Profile</a></li>
                         <li><a href="ChordsTraining.aspx">Chords Training</a></li>
-                        <li><a href="NotesTraining.aspx">Notes Training</a></li>
-                        <li><a href="IntervalsTraining.aspx">Intervals Training</a></li>
+                        <li><a href="#">Notes Training</a></li>
+                        <li><a href="#">Intervals Training</a></li>
                     </ul>
                 </nav>
             </div>
@@ -70,7 +70,7 @@
         <div id="page">
             <div class="container">
                 <div class="row">
-                    <div class="6u">
+                    <div class="4u">
                         <section>
                             <header>
                                 <h2>Acount Details:</h2>
@@ -91,7 +91,7 @@
                             </table>
                         </section>
                     </div>
-                    <div class="6u">
+                    <div class="4u">
                         <section>
                             <header>
                                 <h2>Your Progress:</h2>
@@ -106,6 +106,14 @@
                                     <td><%= user_XP %> / <%= target_XP %></td>
                                 </tr>
                             </table>
+                        </section>
+                    </div>
+                    <div class="4u">
+                        <section>
+                            <header>
+                                <h2>Your Achievements:</h2>
+                            </header>
+                            <%=achievementsList %>
                         </section>
                     </div>
 

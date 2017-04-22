@@ -10,7 +10,7 @@ namespace Final_Web_Programming_Project
 {
     public partial class Index : System.Web.UI.Page
     {
-        private string connStr = "Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=\"|DataDirectory|\\AbsoluteDatabase.mdf\";Integrated Security=True";
+        public static string connStr = "Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=\"|DataDirectory|\\AbsoluteDatabase.mdf\";Integrated Security=True";
         public string user_full_name = "User";
         protected void Page_Load(object sender, EventArgs e)
         {

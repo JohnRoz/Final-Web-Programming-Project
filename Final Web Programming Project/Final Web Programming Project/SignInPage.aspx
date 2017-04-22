@@ -21,9 +21,7 @@
     <!-- Bootstrap - something for smartphones-->
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- My JavaScript -->
-    <!--script src=".js"> </!--script-->
-
+   
 </head>
 <body>
     <div class="container">
@@ -42,7 +40,7 @@
                 <input class="form-control" type="password" name="passwordSignInInput" id="passwordSignInInput" placeholder="Enter password" />
                 <br />
 
-                <input type="submit" class="btn btn-primary" value="Sign In"/>
+                <input type="submit" class="btn btn-primary" value="Sign In" />
             </div>
         </form>
     </div>

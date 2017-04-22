@@ -61,8 +61,8 @@
 						<li class="active"><a href="Index.aspx">Home</a></li>
 						<li><a href="MyProfile.aspx">My Profile</a></li>
 						<li><a href="ChordsTraining.aspx">Chords Training</a></li>
-						<li><a href="NotesTraining.aspx">Notes Training</a></li>
-						<li><a href="IntervalTraining.aspx">Intervals Training</a></li>
+						<li><a href="#">Notes Training</a></li>
+						<li><a href="#">Intervals Training</a></li>
 					</ul>
 				</nav>
             </div>
