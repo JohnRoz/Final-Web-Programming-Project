@@ -41,6 +41,7 @@
 
                     <!-- Sign Out -->
                     <div id="HeaderLinks" class="6u SiteHeaderLink">
+                        <a id="SignOut" class="TextBold" href="SignOutPage.aspx">Sign Out</a>
                     </div>
                 </div>
 
