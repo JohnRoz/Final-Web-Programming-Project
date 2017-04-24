@@ -13,6 +13,7 @@ namespace Final_Web_Programming_Project
         public static string connStr = "Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=\"|DataDirectory|\\AbsoluteDatabase.mdf\";Integrated Security=True";
         public string user_full_name = "User";
         public string logInOrOutHTML = "";
+
         protected void Page_Load(object sender, EventArgs e)
         {
             if (Session["Username"] != null)//LOGGED IN

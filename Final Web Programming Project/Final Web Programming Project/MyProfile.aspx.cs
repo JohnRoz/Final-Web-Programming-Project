@@ -26,6 +26,7 @@ namespace Final_Web_Programming_Project
         //the word "User" is kind of the default to all those strings
 
         public string achievementsList = "";
+        public static bool userDeservesAnAchievement = false;
 
         protected void Page_Load(object sender, EventArgs e)
         {

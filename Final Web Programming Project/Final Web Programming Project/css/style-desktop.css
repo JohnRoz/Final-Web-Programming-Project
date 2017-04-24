@@ -242,17 +242,31 @@
 		border-spacing: 30px 30px;
 	}
 
-	.AcountDetailsField
-	{
-		font-size:2ch;
-	}
-
 	#MajorBtn, #MinorBtn, #DiminishedBtn, #AugmentedBtn
 	{
 		width: 4cm;
 		height: 4cm;
 	}
 
+	.skel-cell-important > #NotesTrainingTable
+	{
+		border-collapse: separate; 
+		border-spacing: 10px 10px;
+	}
+
+	#A_Btn, #B_BemolleBtn, #B_Btn, #C_Btn, #C_DieseBtn, #D_Btn, #E_BemolleBtn, #E_Btn, #F_Btn, #F_DieseBtn, #G_Btn, #G_DieseBtn
+	{
+		width: 2cm;
+		height: 2cm;
+	}
+
+
+	.AcountDetailsField
+	{
+		font-size:2ch;
+	}
+
+	
 	.answer
 	{
 		letter-spacing: -2px;
@@ -261,7 +275,7 @@
 		font-size: 2em;
 	}
 
-	#playChordBtn, #replayChordBtn
+	#playChordBtn, #replayChordBtn, #playNoteBtn, #replayNoteBtn 
 	{
 		width: 3cm;
 		margin-bottom: 1cm;

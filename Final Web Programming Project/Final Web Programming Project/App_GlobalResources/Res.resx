@@ -241,105 +241,6 @@
   <data name="aug_chord_9" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\aug_chord_9.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="a_note_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\a_note_1.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="a_note_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\a_note_2.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="a_note_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\a_note_3.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="a_note_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\a_note_4.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="a_note_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\a_note_5.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="a_note_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\a_note_6.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="a_note_7" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\a_note_7.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="b_bemolle_note_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\b_bemolle_note_1.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="b_bemolle_note_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\b_bemolle_note_2.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="b_bemolle_note_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\b_bemolle_note_3.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="b_bemolle_note_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\b_bemolle_note_4.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="b_bemolle_note_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\b_bemolle_note_5.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="b_bemolle_note_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\b_bemolle_note_6.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="b_bemolle_note_7" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\b_bemolle_note_7.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="b_note_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\b_note_1.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="b_note_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\b_note_2.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="b_note_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\b_note_3.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="b_note_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\b_note_4.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="b_note_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\b_note_5.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="b_note_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\b_note_6.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="b_note_7" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\b_note_7.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="c_diese_note_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\c_diese_note_1.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="c_diese_note_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\c_diese_note_2.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="c_diese_note_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\c_diese_note_3.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="c_diese_note_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\c_diese_note_4.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="c_diese_note_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\c_diese_note_5.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="c_note_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\c_note_1.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="c_note_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\c_note_2.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="c_note_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\c_note_3.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="c_note_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\c_note_4.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="c_note_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\c_note_5.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="c_note_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\c_note_6.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="c_note_7" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\c_note_7.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
   <data name="dim_chord_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\dim_chord_1.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
@@ -468,111 +369,6 @@
   </data>
   <data name="dim_chord_9" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\dim_chord_9.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="d_note_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\d_note_1.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="d_note_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\d_note_2.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="d_note_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\d_note_3.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="d_note_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\d_note_4.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="d_note_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\d_note_5.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="e_bemolle_note_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\e_bemolle_note_1.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="e_bemolle_note_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\e_bemolle_note_2.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="e_bemolle_note_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\e_bemolle_note_3.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="e_bemolle_note_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\e_bemolle_note_4.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="e_bemolle_note_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\e_bemolle_note_5.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="e_note_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\e_note_1.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="e_note_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\e_note_2.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="e_note_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\e_note_3.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="e_note_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\e_note_4.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="e_note_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\e_note_5.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="f_diese_note_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\f_diese_note_1.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="f_diese_note_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\f_diese_note_2.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="f_diese_note_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\f_diese_note_3.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="f_diese_note_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\f_diese_note_4.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="f_diese_note_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\f_diese_note_5.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="f_note_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\f_note_1.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="f_note_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\f_note_2.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="f_note_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\f_note_3.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="f_note_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\f_note_4.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="f_note_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\f_note_5.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="g_diese_note_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\g_diese_note_1.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="g_diese_note_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\g_diese_note_2.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="g_diese_note_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\g_diese_note_3.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="g_diese_note_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\g_diese_note_4.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="g_diese_note_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\g_diese_note_5.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="g_note_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\g_note_1.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="g_note_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\g_note_2.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="g_note_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\g_note_3.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="g_note_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\g_note_4.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="g_note_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\g_note_5.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="maj_chord_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\maj_chord_1.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -717,5 +513,179 @@
   </data>
   <data name="min_chord_9" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\min_chord_9.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="a_note_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\a_note_1.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="a_note_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\a_note_2.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="a_note_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\a_note_3.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="a_note_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\a_note_4.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="a_note_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\a_note_5.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="a_note_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\a_note_6.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="b_bemolle_note_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\b_bemolle_note_1.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="b_bemolle_note_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\b_bemolle_note_2.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="b_bemolle_note_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\b_bemolle_note_3.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="b_bemolle_note_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\b_bemolle_note_4.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="b_bemolle_note_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\b_bemolle_note_5.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="b_note_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\b_note_1.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="b_note_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\b_note_2.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="b_note_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\b_note_3.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="b_note_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\b_note_4.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="b_note_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\b_note_5.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="c_diese_note_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\c_diese_note_1.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="c_diese_note_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\c_diese_note_2.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="c_diese_note_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\c_diese_note_3.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="c_diese_note_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\c_diese_note_4.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="c_note_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\c_note_1.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="c_note_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\c_note_2.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="c_note_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\c_note_3.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="c_note_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\c_note_4.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="c_note_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\c_note_5.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="c_note_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\c_note_6.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="d_note_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\d_note_1.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="d_note_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\d_note_2.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="d_note_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\d_note_3.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="d_note_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\d_note_4.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="e_bemolle_note_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\e_bemolle_note_1.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="e_bemolle_note_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\e_bemolle_note_2.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="e_bemolle_note_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\e_bemolle_note_3.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="e_bemolle_note_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\e_bemolle_note_4.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="e_note_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\e_note_1.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="e_note_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\e_note_2.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="e_note_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\e_note_3.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="e_note_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\e_note_4.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="f_diese_note_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\f_diese_note_1.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="f_diese_note_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\f_diese_note_2.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="f_diese_note_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\f_diese_note_3.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="f_diese_note_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\f_diese_note_4.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="f_diese_note_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\f_diese_note_5.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="f_note_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\f_note_1.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="f_note_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\f_note_2.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="f_note_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\f_note_3.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="f_note_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\f_note_4.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="f_note_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\f_note_5.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="g_diese_note_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\g_diese_note_1.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="g_diese_note_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\g_diese_note_2.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="g_diese_note_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\g_diese_note_3.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="g_diese_note_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\g_diese_note_4.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="g_diese_note_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\g_diese_note_5.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="g_note_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\g_note_1.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="g_note_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\g_note_2.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="g_note_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\g_note_3.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="g_note_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\g_note_4.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="g_note_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\g_note_5.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
 </root>

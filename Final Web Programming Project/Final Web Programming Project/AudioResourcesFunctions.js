@@ -1,4 +1,6 @@
-﻿function get_aug_chords() {
+﻿//CHORDS
+
+function get_aug_chords() {
     var augChords = [];
     for (var i = 1; i <= 41; i++)
         augChords.push("Resources/aug_chord_" + i + ".wav");
@@ -35,89 +37,60 @@ function get_all_chords() {
     return augChords.concat(dimChords, majChords, minChords);
 }
 
-//Enums:
-
-/**JavaScript Enum:
-*DEFINE:
-* 
-* var enum = {
-*   ITEM1: value1,
-*   ITEM2: value2,
-*   ITEM3: value3
-* };
-*
-*USAGE:
-* var v = enum.ITEM1;
-* var chordType = chordTypeEnum.MAJOR;
-* var myNote = notesEnum.A;
-*/
-var notesEnum = {
-    A: 1,
-    B_BEMOLLE: 2,
-    B: 3,
-    C: 4,
-    C_DIESE: 5,
-    D: 6,
-    E_BEMOLLE: 7,
-    E: 8,
-    F: 9,
-    F_DIESE: 10,
-    G: 11,
-    G_DIESE: 12
-};
+//NOTES
 
 function get_A_notes() {
     var A_notes_list = [];
-    for (var i = 1; i <= 7; i++)
+    for (var i = 1; i <= 6; i++)
         A_notes_list.push("Resources/a_note_" + i + ".wav");
     return A_notes_list;
 }
 
 function get_B_bemolle_notes() {
     var B_bemolle_notes_list = [];
-    for (var i = 1; i <= 7; i++)
+    for (var i = 1; i <= 5; i++)
         B_bemolle_notes_list.push("Resources/b_bemolle_note_" + i + ".wav");
     return B_bemolle_notes_list;
 }
 
 function get_B_notes() {
     var B_notes_list = [];
-    for (var i = 1; i <= 7; i++)
+    for (var i = 1; i <= 5; i++)
         B_notes_list.push("Resources/b_note_" + i + ".wav");
     return B_notes_list;
 }
 
 function get_C_notes() {
     var C_notes_list = [];
-    for (var i = 1; i <= 7; i++)
+    for (var i = 1; i <= 6; i++)
         C_notes_list.push("Resources/c_note_" + i + ".wav");
     return C_notes_list;
 }
 
 function get_C_diese_notes() {
     var C_diese_notes_list = [];
-    for (var i = 1; i <= 5; i++)
+    for (var i = 1; i <= 4; i++)
         C_diese_notes_list.push("Resources/c_diese_note_" + i + ".wav");
     return C_diese_notes_list;
 }
 
 function get_D_notes() {
     var D_notes_list = [];
-    for (var i = 1; i <= 5; i++)
+    for (var i = 1; i <= 4; i++)
         D_notes_list.push("Resources/d_note_" + i + ".wav");
     return D_notes_list;
 }
 
 function get_E_bemolle_notes() {
     var E_bemolle_notes_list = [];
-    for (var i = 1; i <= 5; i++)
+    for (var i = 1; i <= 4; i++)
         E_bemolle_notes_list.push("Resources/e_bemolle_note_" + i + ".wav");
     return E_bemolle_notes_list;
 }
 
 function get_E_notes() {
     var E_notes_list = [];
-    for (var i = 1; i <= 5; i++)
+    for (var i = 1; i <= 4; i++)
         E_notes_list.push("Resources/e_note_" + i + ".wav");
     return E_notes_list;
 }

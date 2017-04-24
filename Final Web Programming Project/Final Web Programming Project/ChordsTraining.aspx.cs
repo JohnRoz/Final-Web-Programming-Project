@@ -57,10 +57,26 @@ namespace Final_Web_Programming_Project
 
         public static void CreateNewAchievement(SqlConnection conn, int userLevelFromSession, int userIdFromSession)
         {
-            SqlCommand command = conn.CreateCommand();
-            command.CommandText = string.Format("INSERT INTO Achievements VALUES('Reached Level {0} !',{1});",
-                userLevelFromSession, userIdFromSession);
-            command.ExecuteNonQuery();
+            bool isAchiAlreadyExists = false;
+
+            //IF THE USER STILL DOESN"T HAVE THE SPECIFIED ACHIEVEMENT, INSERT IT!
+            SqlCommand selectForAchiCommand = conn.CreateCommand();
+            selectForAchiCommand.CommandText = string.Format("SELECT * FROM Achievements WHERE UserId = {0}", userIdFromSession);
+            using (SqlDataReader reader = selectForAchiCommand.ExecuteReader())
+            {
+                while (reader.Read())
+                    if (reader.GetString(1) == "Reached Level " + userLevelFromSession + " !")
+                        isAchiAlreadyExists = true;
+            }
+
+            if (!isAchiAlreadyExists)
+            {
+                SqlCommand insertAchiCommand = conn.CreateCommand();
+                insertAchiCommand.CommandText = string.Format("INSERT INTO Achievements VALUES('Reached Level {0} !',{1});",
+                    userLevelFromSession, userIdFromSession);
+                insertAchiCommand.ExecuteNonQuery();
+            }
+            
         }
 
         public static void UpdateUserLevelAndXP(int userLevelFromSession, int userXPfromSession, int userIdFromSession)

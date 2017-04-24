@@ -183,7 +183,7 @@ function playWrongSound(audioTagID) {
 * audioTagID - is the ID of the audio tag that is supposed to play the 'correct sound'.
 */
 function playCorrectSound(audioTagID) {
-    document.getElementById(audioTagID).setAttribute("src", "Resources/c_note_6.wav");
+    document.getElementById(audioTagID).setAttribute("src", "Resources/c_note_5.wav");
     document.getElementById(audioTagID).play();
 }
 

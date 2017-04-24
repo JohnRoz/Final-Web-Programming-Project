@@ -486,15 +486,6 @@ namespace Resources {
         /// <summary>
         ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
         /// </summary>
-        internal static System.IO.UnmanagedMemoryStream a_note_7 {
-            get {
-                return ResourceManager.GetStream("a_note_7", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
-        /// </summary>
         internal static System.IO.UnmanagedMemoryStream b_bemolle_note_1 {
             get {
                 return ResourceManager.GetStream("b_bemolle_note_1", resourceCulture);
@@ -534,24 +525,6 @@ namespace Resources {
         internal static System.IO.UnmanagedMemoryStream b_bemolle_note_5 {
             get {
                 return ResourceManager.GetStream("b_bemolle_note_5", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
-        /// </summary>
-        internal static System.IO.UnmanagedMemoryStream b_bemolle_note_6 {
-            get {
-                return ResourceManager.GetStream("b_bemolle_note_6", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
-        /// </summary>
-        internal static System.IO.UnmanagedMemoryStream b_bemolle_note_7 {
-            get {
-                return ResourceManager.GetStream("b_bemolle_note_7", resourceCulture);
             }
         }
         
@@ -603,24 +576,6 @@ namespace Resources {
         /// <summary>
         ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
         /// </summary>
-        internal static System.IO.UnmanagedMemoryStream b_note_6 {
-            get {
-                return ResourceManager.GetStream("b_note_6", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
-        /// </summary>
-        internal static System.IO.UnmanagedMemoryStream b_note_7 {
-            get {
-                return ResourceManager.GetStream("b_note_7", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
-        /// </summary>
         internal static System.IO.UnmanagedMemoryStream c_diese_note_1 {
             get {
                 return ResourceManager.GetStream("c_diese_note_1", resourceCulture);
@@ -651,15 +606,6 @@ namespace Resources {
         internal static System.IO.UnmanagedMemoryStream c_diese_note_4 {
             get {
                 return ResourceManager.GetStream("c_diese_note_4", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
-        /// </summary>
-        internal static System.IO.UnmanagedMemoryStream c_diese_note_5 {
-            get {
-                return ResourceManager.GetStream("c_diese_note_5", resourceCulture);
             }
         }
         
@@ -714,15 +660,6 @@ namespace Resources {
         internal static System.IO.UnmanagedMemoryStream c_note_6 {
             get {
                 return ResourceManager.GetStream("c_note_6", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
-        /// </summary>
-        internal static System.IO.UnmanagedMemoryStream c_note_7 {
-            get {
-                return ResourceManager.GetStream("c_note_7", resourceCulture);
             }
         }
         
@@ -1152,15 +1089,6 @@ namespace Resources {
         /// <summary>
         ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
         /// </summary>
-        internal static System.IO.UnmanagedMemoryStream d_note_5 {
-            get {
-                return ResourceManager.GetStream("d_note_5", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
-        /// </summary>
         internal static System.IO.UnmanagedMemoryStream e_bemolle_note_1 {
             get {
                 return ResourceManager.GetStream("e_bemolle_note_1", resourceCulture);
@@ -1197,15 +1125,6 @@ namespace Resources {
         /// <summary>
         ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
         /// </summary>
-        internal static System.IO.UnmanagedMemoryStream e_bemolle_note_5 {
-            get {
-                return ResourceManager.GetStream("e_bemolle_note_5", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
-        /// </summary>
         internal static System.IO.UnmanagedMemoryStream e_note_1 {
             get {
                 return ResourceManager.GetStream("e_note_1", resourceCulture);
@@ -1236,15 +1155,6 @@ namespace Resources {
         internal static System.IO.UnmanagedMemoryStream e_note_4 {
             get {
                 return ResourceManager.GetStream("e_note_4", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
-        /// </summary>
-        internal static System.IO.UnmanagedMemoryStream e_note_5 {
-            get {
-                return ResourceManager.GetStream("e_note_5", resourceCulture);
             }
         }
         
